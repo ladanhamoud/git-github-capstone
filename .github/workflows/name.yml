@@ -1,0 +1,13 @@
+name: My GitHub Actions
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print my name
+        run: echo "Hello, my name is Ladan Hamoud"
